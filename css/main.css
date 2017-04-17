@@ -1,0 +1,35 @@
+#clock {
+  margin: auto;
+  position:relative;
+  background: url('http://projects.timmuennig.com/misc/clock/clock.png') no-repeat;
+  background-size:100%;
+  height:550px;
+  width:550px;
+}
+
+#seconds, #hours, #minutes {
+  position:absolute;
+  width:12px;
+  height:550px;
+  left:269px;
+  top:0px;
+}
+
+#seconds {
+  background:url('http://projects.timmuennig.com/misc/clock/clock-seconds.png') no-repeat;
+  background-size:100%;
+  z-index:3;
+}
+
+#hours {
+  background:url('http://projects.timmuennig.com/misc/clock/clock-hours.png') no-repeat;
+  background-size:100%;
+  z-index:2;
+}
+
+#minutes {
+  background:url('http://projects.timmuennig.com/misc/clock/clock-minutes.png') no-repeat;
+  background-size:100%;
+  z-index:1;
+}
+     
